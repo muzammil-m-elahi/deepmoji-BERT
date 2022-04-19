@@ -4,7 +4,7 @@ The colab notebook is simply our project report which includes all the pip insta
 
 You can ignore the installation part below as the code has been updated for Python 3.7 which is what Google Colab uses.
 
-[Colab link:] (https://colab.research.google.com/drive/1dyBKy48rqsbcXSAtGkn-s-Mrp_HLJ8vd?authuser=3#scrollTo=ZcpUbBkPwaJw)
+Colab link: (https://colab.research.google.com/drive/1dyBKy48rqsbcXSAtGkn-s-Mrp_HLJ8vd?authuser=3#scrollTo=ZcpUbBkPwaJw)
 
 The rest of the info below is from the original repo.
 
