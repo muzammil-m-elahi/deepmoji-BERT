@@ -53,4 +53,7 @@ def encode_output(results): # encodes the output so we can use in confusion matr
   return results
 
 def print_metrics(results, labels): # outputs confusion matrix
-  print(classification_report(labels, results, labels=[0,1]))
+  tmp = []
+  for i in range(len(results)):
+    tmp.append(results[i]['label'])
+  print_metrics(labels,tmp)
