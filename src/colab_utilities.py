@@ -17,7 +17,7 @@ def upload():
   return data
 """
 def read_youtube(): # returns texts and the assoicated labels seperatly
-  with open ('/content/drive/MyDrive/bert_deepmoji/data/SS-Youtube/raw.pickle','rb') as dataset:
+  with open ('/content/drive/MyDrive/deepmoji-BERT-main/data/SS-Youtube/raw.pickle','rb') as dataset:
     data = pickle.load(dataset)
 
   try:
@@ -31,7 +31,7 @@ def read_youtube(): # returns texts and the assoicated labels seperatly
   return texts, labels
   
 def read_twitter(): # returns texts and the assoicated labels seperatly
-  with open ('/content/drive/MyDrive/bert_deepmoji/data/SS-Twitter/raw.pickle','rb') as dataset:
+  with open ('/content/drive/MyDrive/deepmoji-BERT-main/data/SS-Twitter/raw.pickle','rb') as dataset:
     data = pickle.load(dataset)
 
   try:
