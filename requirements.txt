@@ -1,0 +1,5 @@
+emoji
+h5py
+text-unidecode
+transformers
+transformers
